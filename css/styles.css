@@ -1,0 +1,665 @@
+body{
+  background-color: hsl(218, 60%, 99%);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.pad-3-7{
+padding: 3% 7% 1% 7%;
+}
+.navbar-light .navbar-nav .nav-link {
+color: hsl(218, 50%, 35%);
+font-weight: 500;
+padding-right: 1rem;
+}
+.navbar-light .navbar-brand {
+color: hsl(218, 50%, 35%);
+font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: hsl(218, 90%, 40%);
+}
+.navbar-light .navbar-brand:hover{
+  color: hsl(218, 90%, 40%);
+}
+#nav{
+  background-color: #f8f9fa;
+}
+
+/* Home section */
+.full-section{
+  padding: 85px 15% 0;
+  position: relative;
+}
+/* Logo section in the Home Section */
+    /* .logos{
+         text-align: left;
+         position: absolute;
+         top: 50%;
+         left: 0;
+         margin: auto;
+         transform: translateY(-50%);
+    }
+    .logos-list{
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .logo-item{
+      color: hsl(218, 50%, 30%);
+      margin: 10px 0;
+    }
+    .logo-item:hover{
+      color: hsl(218, 65%, 40%);
+    } */
+/* End of Logo section in the Home Section */
+.img-and-description{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+img{
+  width: 75%;
+}
+.saedimg{
+  border-radius: 45%;
+  background-color: #14233D;
+}
+.description-section{
+  text-align: left;
+}
+.section-heading{
+  color: hsl(218, 8%, 15%);
+  font-size: 2rem;
+  font-weight:600;
+}
+.section-subtitle{
+  color: hsl(218, 8%, 45%);
+  font-size: 1.125rem;
+  font-weight:500;
+  margin: 3% 0;
+}
+.section-description{
+  color: hsl(218, 40%, 15%);
+  font-size: 0.875rem;
+  font-weight:400;
+  padding-top: 0.5rem;
+}
+.section-button, .a-a-sbutton{
+  background-color:  hsl(218, 50%, 30%);
+  border-color:  hsl(218, 50%, 30%);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 10px;
+  margin-top:1.5rem;
+
+}
+.section-button:hover{
+  background-color: hsl(218, 65%, 40%);
+  border-color: hsl(218, 65%, 40%);
+}
+.a-a-sbutton:hover{
+  background-color: hsl(218, 65%, 40%);
+  border-color: hsl(218, 65%, 40%);
+}
+/* ---------------------------------- */
+/* About me section */
+.centered-heading{
+  text-align: center;
+}
+.bottom-margin{
+  margin-bottom: 3rem;
+}
+.bold{
+  font-weight: 600;
+}
+/* Skills Section */
+.HTML-skill{
+  color: #DC4D25;
+}
+.CSS-skill{
+  color: #2862E9;
+}
+.JS-skill{
+  color: #EFD81D;
+}
+.Bootstrap-skill{
+  color: #6D11EE;
+}
+.SQL-skill{
+  color: #6E93A0;
+}
+#python-logo{
+  width: 80px;
+  height: auto;
+  margin-right: 0;
+}
+#skills-section{
+  text-align: center;
+}
+.skill-box{
+  margin: 20px 0 30px;
+}
+.feature-title{
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+#skills-img img{
+  margin-top:5%;
+  width: 60%;
+}
+
+/* Qualifications-Section */
+#Qualifications-section{
+  padding: 85px 5% 0;
+  margin-bottom: 10%;
+}
+.card-extra-padding{
+  padding: 3rem 1rem;
+}
+.qualification-data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification-rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: hsl(218, 50%, 30%);
+    border-radius: 50%;
+}
+.qualification-line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: hsl(218, 50%, 30%);
+    transform: translate(6px, -7px);
+}
+.buttons-div{
+    text-align: center;
+}
+.buttons-div-mar{
+    margin: 0 10px;
+}
+.qualification-data .section-button{
+  margin: 0;
+  font-size: 0.875rem;
+  padding: 5px 7px;
+}
+.Qualification-title{
+  font-size: 1.125rem;
+  margin: 0 0;
+}
+.Qualification-institute{
+  font-size: 0.925rem;
+  margin: 0 0 0.75rem;
+}
+.Qualification-date{
+  font-size: 0.875rem;
+  margin: 0 0 0.5rem;
+}
+.qualification-data ul{
+  font-size: 0.875rem;
+}
+/*  */
+
+/* projects */
+#Projects-section{
+  padding: 100px 5%;
+}
+.myprojects-heading{
+  margin-bottom: 1.75rem;
+}
+#projects{
+    padding: 0 5%;
+
+}
+.carousel-item{
+  padding: 5% 3% 8%;
+}
+.project-text{
+  margin: 20px;
+  padding-left: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.project-img{
+  margin: 20px;
+  width: 80%;
+vertical-align: middle;
+}
+.projects-button{
+  width: 5%;
+  color:#000;
+}
+.used-tech{
+  list-style-type: none;
+  text-align: center;
+  color: #FFF;
+}
+.used-tech li{
+  display: inline-block;
+  font-weight: 400;
+  margin: 5px;
+  border: solid;
+  border-width: 1px;
+  padding: 0.5rem;
+  background-color: hsl(218, 50%, 30%);
+  border-radius: 20%;
+}
+.iframe-parent{
+  text-align: center;
+}
+iframe{
+  width: 80%;
+  height: auto;
+  /* height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%,-50%); */
+}
+.image-prject-parent{
+  text-align: center;
+}
+.stopwatch{
+  border-radius: 35%;
+}
+/*  */
+
+/* Footer */
+.contact-me-subtitle{
+  font-size: 1.20rem;
+
+}
+.contact-me-img-and-logos{
+  text-align: center;
+}
+.contact-me-img{
+  margin: 0 0 20px 0;
+}
+.footer-logos{
+  padding-left: 0;
+}
+.footer-icons{
+  display: inline-block;
+  list-style-type:none;
+  margin : 0 20px 0 0;
+}
+.footerlink{
+  color: hsl(218, 50%, 30%);
+}
+.footerlink:hover{
+  color: hsl(218, 65%, 40%);
+}
+.copyright{
+  margin: 120px auto 80px auto;
+text-align: center;
+}
+
+
+/* media quiries */
+
+@media (min-width: 1125px){
+  #home-section{
+    padding: 15% 15% 5% 15%;
+   }
+
+#home-description{
+    margin-left: 10%;
+}
+#p-home-description{
+   padding-right: 50%;
+}
+  img{
+    width: 30%;
+    /* margin-bottom: 10px; */
+    margin-right: 10%;
+  }
+  .to-the-right{
+    float: right;
+  }
+  .download-cv-button{
+  margin-bottom: 5%;
+}
+  #About-Me-section{
+    padding-top: 120px;
+  }
+  .to-the-left{
+    float: left;
+  }
+  .about-me-description{
+    margin-left: 50%;
+  }
+  .about-me-img{
+    margin-left: 10%;
+  }
+  .section-button{
+    margin-top:3rem;
+  }
+  #skills-section{
+    padding-top: 120px;
+    position: relative;
+  }
+  .skills-heading{
+    margin-bottom: 7%;
+  }
+  .skills-img{
+ position: relative;
+left: 50%
+  }
+  .skills-img img{
+    width: 75%;
+  }
+  .description-skills{
+position: relative;
+right:50%;
+  }
+  .project-img{
+    margin-top: 20%;
+  }
+  iframe{
+    margin-top: 20%;
+  }
+  .contact-me-subtitle{
+    margin-bottom: 3%;
+  }
+  .contact-me-img{
+    width: 30%;
+    margin-right: 0;
+    margin-bottom: 6%;
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1124px){
+  #home-section{
+    padding: 15% 15% 5% 15%;
+   }
+
+#home-description{
+    margin-left: 10%;
+}
+#p-home-description{
+   padding-right: 50%;
+}
+  img{
+    width: 30%;
+    /* margin-bottom: 10px; */
+    margin-right: 10%;
+  }
+
+  .to-the-right{
+    float: right;
+  }
+  .download-cv-button{
+  margin-bottom: 5%;
+}
+  #About-Me-section{
+    padding-top: 120px;
+  }
+  .to-the-left{
+    float: left;
+  }
+  .about-me-description{
+    margin-left: 50%;
+  }
+  .about-me-img{
+    margin-left: 10%;
+  }
+  .section-button{
+    margin-top:3rem;
+  }
+  #skills-section{
+    padding-top: 120px;
+    position: relative;
+  }
+  .skills-heading{
+    margin-bottom: 7%;
+  }
+  .skills-img{
+ position: relative;
+left: 50%
+  }
+  .skills-img img{
+    width: 85%;
+  }
+  .description-skills{
+position: relative;
+right:50%;
+  }
+  #Qualifications-section{
+    margin-bottom: 15%;
+  }
+  .project-img{
+    margin-top: 20%;
+  }
+  iframe{
+    margin-top: 40%;
+  }
+  .contact-me-subtitle{
+    margin-bottom: 4%;
+  }
+  .contact-me-img{
+    width: 45%;
+    margin-right: 0;
+    margin-bottom: 5%;
+    margin-top: 0;
+  }
+}
+@media (min-width: 712px) and (max-width: 991px){
+  #home-section{
+    padding: 15% 15% 5% 15%;
+   }
+   img{
+     width: 35%;
+     margin-right: 0;
+     margin-bottom: 5%;
+   }
+   /* About me section */
+   .about-me-img{
+     width: 40%;
+     margin-right: 0;
+     margin-bottom: 5%;
+   }
+   /* Skills */
+   .skills-img img{
+     width: 40%;
+     margin-right: 0;
+     margin-bottom: 5%;
+     margin-top: 5%;
+   }
+   /* Qualifications */
+   #Qualifications-section{
+     margin-bottom: 25%;
+   }
+   .contact-me-subtitle{
+     margin-bottom: 3%;
+   }
+   .contact-me-img{
+     width: 45%;
+     margin-right: 0;
+     margin-bottom: 8%;
+     margin-top: 5%;
+   }
+}
+/*  */
+@media (min-width: 500px) and (max-width: 711px){
+  #home-section{
+    padding: 15% 15% 5% 15%;
+   }
+   img{
+     width: 45%;
+     margin-right: 0;
+     margin-bottom: 5%;
+   }
+   /* About me section */
+   .about-me-img{
+     width: 57%;
+     margin-right: 0;
+     margin-bottom: 5%;
+   }
+   .about-me-subtitle{
+     margin-bottom:16px;
+   }
+   /* Skills */
+   .skills-img img{
+     width: 65%;
+     margin-right: 0;
+     margin-bottom: 5%;
+     margin-top: 5%;
+   }
+   .skill-box{
+     margin: 10px 0 0 0;
+   }
+   .skill-box i {
+     transform: scale(0.75);
+   }
+   .skill-box h4{
+     font-size: 1rem;
+     margin: 0;
+   }
+   .skill-box img {
+     transform: scale(0.75);
+     margin-bottom: 0;
+   }
+   /* Qualifications */
+   #Qualifications-section{
+     margin-bottom: 25%;
+   }
+   #Qualifications-section button{
+     margin-bottom: 10px;
+   }
+   .Qualification-title{
+     font-size: 0.975rem;
+   }
+   .Qualification-institute{
+     font-size: 0.85rem;
+   }
+   .Qualification-date{
+     font-size: 0.75rem;
+   }
+   .qualification-data{
+     column-gap: 0.25rem;
+   }
+   .qualification-data ul{
+     line-height: 1.75;
+    font-size: 0.75rem;
+    padding-left: 0.95rem;
+   }
+   .qualification-card{
+     padding: 0;
+   }
+   /*  */
+.project-text{
+  font-size: 1.125rem;
+}
+   /*  */
+   .contact-me-subtitle{
+     margin-bottom: 5%;
+   }
+   .contact-me-img{
+     width: 60%;
+     margin-right: 0;
+     margin-bottom: 15%;
+     margin-top: 5%;
+   }
+   .footer-logos i{
+     transform: scale(0.8);
+   }
+}
+
+/*  */
+
+@media (min-width: 300px) and (max-width: 499px){
+  #home-section{
+    padding: 20% 15% 5% 15%;
+   }
+   img{
+     width: 60%;
+     margin-right: 0;
+     margin-bottom: 5%;
+   }
+   /* About me section */
+   .about-me-img{
+     width: 80%;
+     margin-right: 0;
+     margin-bottom: 5%;
+   }
+   .about-me-subtitle{
+     margin-bottom:16px;
+   }
+   /* Skills */
+   .skills-img img{
+     width: 85%;
+     margin-right: 0;
+     margin-bottom: 10%;
+     margin-top: 5%;
+   }
+   .skill-box{
+     margin: 10px 0 0 0;
+   }
+   .skill-box i {
+     transform: scale(0.85);
+   }
+   .skill-box h4{
+     font-size: 1.125rem;
+     margin: 0;
+   }
+   .skill-box img {
+     transform: scale(0.85);
+     margin-bottom: 0;
+   }
+   /* Qualifications */
+   #Qualifications-section{
+     margin-bottom: 25%;
+   }
+   #Qualifications-section button{
+     margin-bottom: 10px;
+   }
+   .Qualification-title{
+     font-size: 0.975rem;
+   }
+   .Qualification-institute{
+     font-size: 0.85rem;
+   }
+   .Qualification-date{
+     font-size: 0.75rem;
+   }
+   .qualification-data{
+     column-gap: 0.25rem;
+   }
+   .qualification-data ul{
+     line-height: 1.75;
+    font-size: 0.75rem;
+    padding-left: 0.95rem;
+   }
+   .qualification-card{
+     padding: 0;
+   }
+   /*  */
+.project-text{
+  font-size: 1.125rem;
+}
+   /*  */
+   .contact-me-subtitle{
+     margin-bottom: 5%;
+   }
+   .contact-me-img{
+     width: 83%;
+     margin-right: 0;
+     margin-bottom: 10%;
+     margin-top: 5%;
+   }
+   .footer-logos i{
+     transform: scale(0.7);
+     margin-bottom: 1.5rem;
+     margin-right: 1.25rem;
+   }
+   .hideOnSmallScreen{
+     display: none;
+   }
+}

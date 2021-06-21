@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================== fontawesome ====================-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--==================== Bootstrap ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--==================== GoogleFonts ====================-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- favicon-->
+    <link rel="icon" href="images/favicon.ico">
+    <!--  -->
+    <title>Sa'ed's Portfolio</title>
+  </head>
+
+  <body id="body">
+
+
+ <!--==================== Start of NavBar ====================-->
+ <nav class="navbar fixed-top navbar-expand-lg navbar-light  pad-3-7" id="nav">
+  <div class="container-fluid">
+
+     <a class="navbar-brand" href="#"> Sa'ed</a>
+     <a class="nav-link" href="#" onclick="darkMode()"> <i class="far fa-moon"></i> </a>
+
+     <button class="navbar-toggler" type= "button"  data-bs-toggle="collapse" data-bs-target="#navbarNavDemo">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse " id="navbarNavDemo">
+       <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#home-section"> Home </a>
+            <a class="nav-link" href="#About-Me-section"> About </a>
+            <a class="nav-link" href="#skills-section"> Skills </a>
+            <a class="nav-link" href="#Qualifications-section"> Qualifications </a>
+            <a class="nav-link" href="#Projects-section"> Portfolio </a>
+            <a class="nav-link" href="#Contact-Me-section"> Contact me </a>
+        </div>
+      </div>
+  </div>
+ </nav>
+
+ <!--==================== End of NavBar ====================-->
+<!--==================== Start of Home Section ====================-->
+<div class="full-section" id="home-section">
+
+  <!-- <div class = "logos">
+    <ul class="logos-list">
+      <li>
+        <i class="logo-item fas fa-envelope fa-1x"> </i>
+      </li>
+      <li>
+        <i class="logo-item fab fa-linkedin fa-1x"></i>
+      </li>
+      <li>
+        <i class="logo-item fab fa-github fa-x"></i>
+      </li>
+    </ul>
+  </div> -->
+
+
+    <!-- <div class="row">
+      <div class="col-lg-6 first-section on-the-bottom-of-the-section-on-phone" id="home-description"> -->
+      <div class="img-and-description">
+
+            <img class="section-image to-the-right saedimg"  src="images/homeimg.png" alt="Saed-image">
+
+        <div class="description-section" id="home-description">
+         <h1 class="section-heading"> Hi, I am Sa'ed </h1>
+         <h3 class="section-subtitle">  Programmer / Web developer</h3>
+         <p class="section-description" id="p-home-description">
+            I'm really excited to share some of my skills, experiences, motivations and projects with you. <br /> Currently I'm looking for a new opportunity as a junior software engineer, So if you have any challenge, project or vacancy, I would love to hear from you.
+         </p>
+         <a class="btn btn-primary btn-lg section-button a-a-sbutton jsbutton" href="#Contact-Me-section" role="button"> Contact Me <i class="fas fa-chevron-circle-right"></i></a>
+         <!-- <button type="button" class="btn btn-primary btn-lg section-button">   <a  href="#Contact-Me-section"> Contact me </a> <i class="fas fa-chevron-circle-right"></i></button> -->
+      </div>
+
+    </div>
+
+
+</div>
+<!--==================== End of Home Section ====================-->
+
+<!--==================== About Me Section ====================-->
+<div class="full-section" id="About-Me-section">
+       <h2 class="section-heading centered-heading"> About Me</h2>
+       <h3 class="section-subtitle centered-heading bottom-margin about-me-subtitle"> My Introduction </h3>
+
+      <div class="img-and-description">
+            <img class="section-image to-the-left about-me-img" src="images/AboutmeGif4.gif" alt="Saed-image">
+        <div class="description-section">
+          <p class="section-description about-me-description">
+            I started my journey as a structural design engineer, and as it said, <q>one road leads to another</q>, I found myself learning how to code to solve some of the repeated tasks that structural engineers face during the design process. <br />
+            Eventually, I found that I am eagrly passionate about programming and web developement. Therefore I decided to start a new journey where I can use my math skills to solve complex probelms, create new things  and to help industries in their digital transformation.
+          </p>
+          <p class="section-description about-me-description">
+            <q>IT IS NOT A <span class="bold"> PROPLEM</span>; IT IS AN OPPORTUNITY TO <span class="bold"> MAKE A CHANGE.</span></q>
+          </p>
+          <!-- <button type="button" class="btn btn-primary btn-lg section-button download-cv-button"> Download Cv <i class="fas fa-download"></i> </button> -->
+          <a class="btn btn-primary btn-lg section-button a-a-sbutton download-cv-button jsbutton" href="assets/Saed-al-Halteh-CV.pdf" target="_blank" role="button"> Download Cv <i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+
+<!--==================== End of About Me Section ====================-->
+<!--==================== Start of Skills Section ====================-->
+<div class="full-section"id="skills-section">
+  <h2 class="section-heading centered-heading skills-heading"> Skills </h2>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 skills-img" >
+        <img  id="circus-img" src="images/skills4.gif" alt="saed-showing-skills">
+
+      </div>
+
+      <div class="col-lg-6 description-skills">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 skill-box">
+        <i class="fab fa-html5 fa-5x HTML-skill"></i>
+        <h4 class="feature-title"> HTML </h4>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 skill-box">
+          <i class="fab fa-css3-alt fa-5x CSS-skill"></i>
+          <h4 class="feature-title"> CSS </h4>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 skill-box">
+          <i class="fab fa-js-square fa-5x JS-skill"></i>
+          <h4 class="feature-title"> JavaScript </h4>
+      </div>
+      <div class="col-lg-4 col-sm-6 skill-box">
+        <i class="fab fa-bootstrap fa-5x Bootstrap-skill"></i>
+        <h4 class="feature-title"> Bootstrap </h4>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 skill-box">
+          <img id="python-logo" src="images\python-removebg-preview.jpg" alt="Python-logo">
+          <h4 class="feature-title"> Python </h4>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 skill-box">
+          <i class="fas fa-database fa-5x SQL-skill"></i>
+      <h4 class="feature-title"> SQL </h4>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--==================== End of Skills Section ====================-->
+<!--==================== start of Qualifications Section ====================-->
+
+<div class="full-section"id="Qualifications-section">
+  <br />
+  <h2 class="section-heading centered-heading"> Qualifications </h2>
+  <h3 class="section-subtitle centered-heading bottom-margin"> My personal journey </h3>
+
+
+    <div class="buttons-div">
+        <button class="btn btn-primary buttons-div-mar btn-lg section-button jsbutton" type="button" data-bs-toggle="collapse" data-bs-target="#certificates">
+          <i class="fas fa-award"></i> Certificates
+        </button>
+        <button class="btn btn-primary buttons-div-mar btn-lg section-button jsbutton" type="button" data-bs-toggle="collapse" data-bs-target="#education">
+          <i class="fas fa-graduation-cap"></i> Education
+        </button>
+        <button class="btn btn-primary buttons-div-mar btn-lg section-button jsbutton" type="button" data-bs-toggle="collapse" data-bs-target="#work-experience">
+          <i class="fas fa-briefcase"></i> Work-Experience
+        </button>
+   </div>
+
+<!-- Work Experience -->
+<div class="collapse" id="work-experience">
+ <div class="card card-body">
+   <!--  -->
+   <!--1-->
+   <div class="qualification-data">
+       <div>
+            <h3 class="Qualification-title"> Application Engineer</h3>
+            <p class="Qualification-institute">  Digital Fusion Information Technology </p>
+            <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 01/09/2019 – 31/03/2021 </p>
+            <button class="btn btn-primary buttons-div-mar btn-lg section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#Application-Engineer">
+               <i class="fas fa-info-circle"></i> info
+            </button>
+            <div class="collapse" id="Application-Engineer">
+                <div class="card card-body qualification-card">
+                   <p class="Qualification-description">
+                       <ul class="Qualification-description-list">
+                         <li>STAAD.Pro accredited trainer by Bentley Systems.</li>
+                           <li>Provided Technical Support and Training for several applications:</li>
+                               <ul>
+                                 <li>
+                                   Bentley systems Structural Engineering software, including: STAAD.Pro, STAAD Foundation
+                                   Advanced, RAM Connection, RAM Structural System, RCDC FE and RAM Elements.
+                                 </li>
+                                 <li>
+                                   PlanSwift (Takeoff Software for Construction Estimating).
+                                 </li>
+                               </ul>
+                           <li>
+                             Delivered Technical demos/presentations to top prospects and customers, covering the below:
+                             <ul>
+                               <li>
+                                 Bentley systems Structural Engineering software, including: STAAD.Pro, STAAD Foundation Advanced RAM Connection, RAM Structural System, RAM Concept,RCDC FE and RAM Elements.
+                               </li>
+                               <li>
+                                 PlanSwift (Takeoff Software for Construction Estimating).
+                               </li>
+                               <li>
+                                 Team system construction management software/platform.
+                               </li>
+                               <li>
+                                 Vrex Plat form to introduce the VR technology in the AEC industry.
+                               </li>
+                             </ul>
+                         <li>
+                            Delivered trainings and webinars for several companies and universities in Jordan and Iraq,
+                            such as: CC group, Nejem Co, Hamkar Group, Ministry of Public Works & Housing, University of Petra, University of Basrah, University of Misan and other firms as well.
+                         </li>
+
+                         <li>
+                           Prepared training material and datasets
+                         </li>
+
+
+
+                     </ul>
+
+
+                   </p>
+               </div>
+         </div>
+       </div>
+       <div>
+           <span class="qualification-rounder"></span>
+            <span class="qualification-line"></span>
+        </div>
+ </div>
+
+   <!--  -->
+   <div class="qualification-data">
+     <div>   </div>
+     <div>
+         <span class="qualification-rounder"></span>
+          <span class="qualification-line"></span>
+      </div>
+     <div>
+          <h3 class="Qualification-title"> Civil Site Engineer Trainee </h3>
+          <p class="Qualification-institute">  Arab Business Corporation </p>
+          <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 01/03/2019 – 24/05/2019 </p>
+         <button class="btn btn-primary buttons-div-mar section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#Civil-Site-Engineer-Trainee">
+        <i class="fas fa-info-circle"></i> info
+      </button>
+      <div class="collapse" id="Civil-Site-Engineer-Trainee">
+         <div class="card card-body qualification-card">
+           <p class="Qualification-description">
+             <ul class="Qualification-description-list">
+               <li>Worked at the Ministry of Finance project, where I supervised on different works such as: concrete slabs casting,
+                   Plastering, Flooring, Water proofing works and Installation of stone and glass facades.</li>
+           </ul>
+          </p>
+         </div>
+       </div>
+     </div>
+
+   </div>
+
+   <!--  -->
+   <div class="qualification-data">
+
+
+     <div>
+        <h3 class="Qualification-title"> Structural Engineer Trainee </h3>
+      <p class="Qualification-institute">  Dar Al‐Handasah (Shair And Partners) </p>
+      <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 10/06/2018 – 10/08/2018 </p>
+      <button class="btn btn-primary buttons-div-mar section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#Structural-Engineer-Trainee">
+     <i class="fas fa-info-circle"></i> info
+   </button>
+   <div class="collapse" id="Structural-Engineer-Trainee">
+      <div class="card card-body qualification-card">
+      <ul class="Qualification-description-list">
+        <li>Performed structural analysis and design for a mixed-use building,
+            at Yasmeen city – Al Doha – Qatar, using several structural analysis and design software:
+            <ul>
+              <li>
+                ETABS
+              </li>
+              <li>
+                SAFE
+              </li>
+              <li>
+                SAP2000
+              </li>
+            </ul>
+    </ul>
+     </div>
+
+   </div>
+   <!--  -->
+
+   <!--  -->
+ </div>
+ <div>
+   <span class="qualification-rounder"></span>
+    <!--<span class="qualification-line"></span>-->
+</div>
+</div>
+<!--  -->
+</div>
+</div>
+<!--  -->
+<!--Education-->
+<div class="collapse" id="education">
+ <div class="card card-body card-extra-padding">
+
+ <!--  -->
+         <!--1-->
+         <div class="qualification-data">
+             <div>
+                  <h3 class="Qualification-title"> B.Sc in Civil Engineering</h3>
+                  <p class="Qualification-institute">  Jordan University of Science and Technology </p>
+                  <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 2014-2019 </p>
+                  <button class="btn btn-primary buttons-div-mar btn-lg section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#BSc-in-Civil-Engineering">
+                     <i class="fas fa-info-circle"></i> info
+                  </button>
+                  <div class="collapse" id="BSc-in-Civil-Engineering">
+                      <div class="card card-body qualification-card">
+                         <p class="Qualification-description">
+                             <ul class="Qualification-description-list">
+                               <li>GPA : 3.70 (Excellent)</li>
+                               <li>Graduation project:
+                                 <ul class="Qualification-description-list">
+                                   <li>Structural analysis and design for a multi-story residential building, with a total area of 2400 m<sup>2</sup>, using PROKON, ETABS, SAFE and Revit to generate the structural drawings.</li>
+                                   <li>Structural analysis and design for Steel warehouse using STAAD.Pro.  </li>
+
+                                 </ul>
+
+                             </ul>
+                         </p>
+                     </div>
+               </div>
+             </div>
+             <div>
+                 <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+              </div>
+       </div>
+   <!--  -->
+   <div class="qualification-data">
+       <div></div>
+       <div>
+         <span class="qualification-rounder"></span>
+          <!--<span class="qualification-line"></span>-->
+      </div>
+     <div>
+        <h3 class="Qualification-title"> High School Diploma </h3>
+      <p class="Qualification-institute">  MODERN SYSTEM SCHOOL </p>
+      <p> <strong> Mark: 95.5%  </strong>  </p>
+      <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 2014 </p>
+
+     </div>
+
+   </div>
+
+ </div>
+</div>
+
+<!-- Certificates -->
+           <div class="collapse" id="certificates">
+               <div class="card card-body card-extra-padding">
+
+                   <!--1-->
+                   <div class="qualification-data">
+                       <div>
+                            <h3 class="Qualification-title"> The Complete 2021 Web Development Bootcamp</h3>
+                            <p class="Qualification-institute">  Udemy </p>
+                            <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 05-2021 - Present </p>
+                            <button class="btn btn-primary buttons-div-mar btn-lg section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#The-Complete-2021-Web-Development-Bootcamp-description">
+                               <i class="fas fa-info-circle"></i> info
+                            </button>
+                            <div class="collapse" id="The-Complete-2021-Web-Development-Bootcamp-description">
+                                <div class="card card-body qualification-card">
+                                   <p class="Qualification-description">
+                                       <ul class="Qualification-description-list">
+                                         <li>Front-End-Web-Development</li>
+                                           <ul>
+                                         <li>Introduction to HTML.</li>
+                                         <li>Intermediate HTML.</li>
+                                         <li>Introduction to CSS.</li>
+                                         <li>Intermediate CSS.</li>
+                                         <li>Introduction to Bootstrap.</li>
+                                         <li>Intermediate Bootstrap.</li>
+                                         <li>Introduction to JavaScript.</li>
+                                         <li>Intermediate JavaScript.</li>
+                                         <li>The Document Object Model(DOM).</li>
+                                         <li>Advanced JavaScript and DOM Manipulation </li>
+                                         </ul>
+                                         <li> Currently, I am continuing to develop the skills that covers the Back-End-Web-Development concepts in this Online Bootcamp, these concepts inculde the following: </li>
+                                         <ul>
+                                          <li>
+                                            Node.js
+                                          </li>
+                                          <li>
+                                            Express.js
+                                          </li>
+                                          <li>
+                                            APIs
+                                          </li>
+                                          <li>
+                                            SQL
+                                          </li>
+                                          <li>
+                                            Mongoose
+                                          </li>
+                                          <li>
+                                            Authentication and Security
+                                          </li>
+                                         </ul>
+                                       </ul>
+                                   </p>
+                               </div>
+                         </div>
+                       </div>
+                       <div>
+                           <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                   </div>
+                   <!------------------------2------------>
+                     <div class="qualification-data">
+                       <div>   </div>
+                       <div>
+                           <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                       <div>
+                            <h3 class="Qualification-title"> Introduction to JavaScript Workshop </h3>
+                            <p class="Qualification-institute">  Orange Coding Academy </p>
+                            <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 06-2021 </p>
+                           <button class="btn btn-primary buttons-div-mar section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#Introduction-to-JavaScript-Workshop-description">
+                          <i class="fas fa-info-circle"></i> info
+                        </button>
+                        <div class="collapse" id="Introduction-to-JavaScript-Workshop-description">
+                           <div class="card card-body qualification-card">
+                             <p class="Qualification-description">
+                               <ul class="Qualification-description-list">
+                                 <li>JS Variables & Constants.</li>
+                                 <li>Arrays.</li>
+                                 <li>
+                                   JS Operators & Arithmetic
+                                 </li>
+                                 <li>Arrays</li>
+                                <li>Loops.</li>
+                                <li>Conditional Statements</li>
+                               <li>JS Functions</li>
+                               <li>DOM Manipulation</li>
+                             </ul>
+                            </p>
+                           </div>
+                         </div>
+                       </div>
+
+                   </div>
+                   <!--3-->
+                    <div class="qualification-data">
+                       <div>
+                          <h3 class="Qualification-title"> Responsive Web Design </h3>
+                            <p class="Qualification-institute">  FreeCodeCamp  </p>
+                            <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 04-2021 </p>
+                           <button class="btn btn-primary buttons-div-mar section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#Responsive-Web-Design-description">
+                        <i class="fas fa-info-circle"></i> info
+                      </button>
+                      <div class="collapse" id="Responsive-Web-Design-description">
+                         <div class="card card-body qualification-card">
+                           <p class="Qualification-description">
+                             <ul class="Qualification-description-list">
+                               <li>Basic HTML & HTML5.</li>
+                               <li>Basic CSS.</li>
+                              <li>Applied Visual Design.</li>
+                              <li>Responsive Web Design Principles.</li>
+                              <li>CSS Flexbox.</li>
+                             <li>CSS Grid.</li>
+                           </ul>
+                          </p>
+                         </div>
+                       </div>
+                       </div>
+                       <div>
+                           <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                   </div>
+                   <!--4-->
+                     <div class="qualification-data">
+                         <div></div>
+                         <div>
+                           <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                       <div>
+                           <h3 class="Qualification-title"> Intro to Programming </h3>
+                            <p class="Qualification-institute"> UDACITY </p>
+                            <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 03-2021 - 04-2021 </p>
+                           <button class="btn btn-primary buttons-div-mar section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#Intro-to-Programmig-description">
+                        <i class="fas fa-info-circle"></i> info
+                      </button>
+                      <div class="collapse" id="Intro-to-Programmig-description">
+                         <div class="card card-body qualification-card">
+                           <p class="Qualification-description">
+                             <ul class="Qualification-description-list">
+                               <li>Intro to HTML.</li>
+                               <li>Intro to CSS.</li>
+                              <li>Intro to Python.</li>
+                           </ul>
+                           </p>
+                         </div>
+                       </div>
+                       </div>
+
+                   </div>
+                   <!--5-->
+                   <div class="qualification-data">
+                       <div>
+                          <h3 class="Qualification-title"> Pre-Programmig: Everything You Need to Know Before You Code </h3>
+                            <p class="Qualification-institute">  Udemy  </p>
+                            <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 02-2021 </p>
+                           <button class="btn btn-primary buttons-div-mar section-button jsbutton hideOnSmallScreen" type="button" data-bs-toggle="collapse" data-bs-target="#Pre-Programmig-description">
+                        <i class="fas fa-info-circle"></i> info
+                      </button>
+                      <div class="collapse" id="Pre-Programmig-description">
+                         <div class="card card-body qualification-card">
+                           <p class="Qualification-description" >
+                             <ul class="Qualification-description-list">
+                               <li>Better understand the fundamentals of how programming works.</li>
+                               <li>Understand the fundamentals of how computers work and how that relates to modern web technology.</li>
+                              <li>Choose what programming language and path they want to pursue in their career.</li>
+                              <li>Make a decision about what technology and ecosystem interests you.</li>
+                           </ul>
+                         </p>
+                         </div>
+                       </div>
+                       </div>
+                       <div>
+                           <span class="qualification-rounder"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                   </div>
+                   <!--6-->
+                     <div class="qualification-data">
+                         <div></div>
+                         <div>
+                           <span class="qualification-rounder"></span>
+                            <!--<span class="qualification-line"></span>-->
+                        </div>
+                       <div>
+                          <h3 class="Qualification-title"> IELTS Academic Band 7</h3>
+                        <p class="Qualification-institute">  IELTS </p>
+                        <p class="Qualification-date"> <i class="far fa-calendar-alt"></i> 01-2021 </p>
+                       </div>
+
+                   </div>
+
+                   <!---->
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+</div>
+
+  <!--==================== Start of Projects Section ====================-->
+
+  <div class="full-section"id="Projects-section">
+    <br />
+    <h2 class="section-heading centered-heading myprojects-heading"> My Projects </h2>
+    <!-- projects -->
+    <!-- -------------------------------------------------------------------------------------- -->
+
+    <section  id="projects">
+      <!-- carousel -->
+      <div id="projects-carousel" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="50000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <div class="row">
+              <div class="col-lg-6 iframe-parent">
+                <iframe class="project-image"  src="https://www.youtube.com/embed/DmprGb8vrqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <video controls muted class="project-image" width="876" height="394">
+                  <source src="https://youtu.be/DmprGb8vrqo"/>
+                  Your Browser doesn't support video tag
+                </video> -->
+              </div>
+              <div class="col-lg-6">
+                <ul class="used-tech">
+                  <li class="used-tech-box" >
+                    STAAD.Pro
+                  </li>
+                  <li class="used-tech-box">
+                    OpenSTAAD
+                  </li>
+                  <li class="used-tech-box">
+                    Excel
+                  </li>
+                  <li class="used-tech-box">
+                    VBA
+                  </li>
+                </ul>
+                <p class="project-text">OpenSTAAD is a library of exposed functions allowing engineers access to STAAD.Pro (Structural Analysis and Design software) Internal functions and commands. In this Program I have been able to reduce modeling time of Steel warehouses significantly.</p>
+
+                  <p class="project-text">   Assigning cross sections Properties, defining Tapered sections, assigning materials and end releases are performed simply by just entering some parameters in an Excel sheet and then the modeling will be done automatically in STAAD.Pro.</p>
+
+                        <p class="project-text">    OpenSTAAD has been used to link STAAD.Pro With this Excel sheet allowing for automated modeling and enormously limiting the modeling time.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="carousel-item container-fluid">
+
+            <div class="row">
+              <div class="col-lg-6 image-prject-parent">
+                <img class="project-img stopwatch" src="images/stopwatch.PNG" alt="stopwatch-project-img">
+              </div>
+              <div class="col-lg-6">
+                <ul class="used-tech">
+                  <li class="used-tech-box">
+                    HTML
+                  </li>
+                  <li class="used-tech-box">
+                    CSS
+                  </li>
+                  <li class="used-tech-box">
+                    JavaScript
+                  </li>
+                </ul>
+                <p class="project-text"> As part of Introduction to JavaScript Workshop by Orange Coding Academy, we were required to deliver a simple stopwatch project, in order to apply what we have learned during the workshop. </p>
+                <p class="project-text">This project helped me to review what we learned during the workshop and to have a better understanding on how to use JavaScript functions and DOM Manipulation in a practical way. </p>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+          <div class="carousel-item container-fluid">
+            <div class="row">
+              <div class="col-lg-6 image-prject-parent">
+                <img class="project-img" src="images/landingpage.PNG" alt="landing-page-project-img">
+              </div>
+              <div class="col-lg-6">
+                <ul class="used-tech">
+                  <li class="used-tech-box">
+                    HTML
+                  </li>
+                  <li class="used-tech-box">
+                    CSS
+                  </li>
+                  <li class="used-tech-box">
+                    Bootstrap
+                  </li>
+                </ul>
+                <p class="project-text"> This was the first landing page I ever designed. During The Complete 2021 Web Development Bootcamp by Dr. Angela Yu. In this project I applied what we've learned about HTML, CSS and Bootstrap by designing a landing page for a virtual mobile application called tindog.   </p>
+               <p class="project-text">This was a great way to solidify esseintal concepts about responsive web design and about the various componetens available in Bootstrap5 such as Bootsrap Cards, Grid layout and Carousel. </p>
+              </div>
+
+
+            </div>
+          </div>
+
+
+        </div>
+        <button class="carousel-control-prev projects-button" type="button" data-bs-target="#projects-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+
+        <button class="carousel-control-next projects-button" type="button" data-bs-target="#projects-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+      <!-- end carousel -->
+
+    </section>
+  <!-- -------------------------------------------------------------------------------------- -->
+
+</div>
+    <!--==================== End of Projects Section ====================-->
+    <div class="full-section"id="Contact-Me-section">
+      <br />
+      <h2 class="section-heading centered-heading"> Let's Work Together ... </h2>
+      <h3 class="section-subtitle centered-heading bottom-margin contact-me-subtitle"> How do you take your coffee?</h3>
+
+
+          <div class="contact-me-img-and-logos">
+
+
+            <img  class="contact-me-img" src="images/Contact-me-img3.gif" alt="saed-drinking-coffee-img">
+
+
+
+              <ul class="footer-logos">
+                <li class="footer-icons">
+                    <a class="footerlink" href="mailto:saed_jm_@hotmail.com"><i class="logo-item fas fa-envelope fa-3x"> </i></a>
+
+                </li>
+                <li class="footer-icons">
+                  <a class="footerlink" href="https://www.linkedin.com/in/sa%E2%80%99edhalteh/"> <i class="logo-item fab fa-linkedin fa-3x"></i> </a>
+                </li>
+                <li class="footer-icons">
+                  <a class="footerlink" href="https://github.com/Saed-Al-Halteh"><i class="logo-item fab fa-github fa-3x"></i></a>
+                </li>
+                <li class="footer-icons">
+                  <a class="footerlink" href="https://www.facebook.com/saed.halta"><i class="fab fa-facebook-f fa-3x"></i></a>
+                </li>
+                <li class="footer-icons">
+                  <a class="footerlink" href="https://www.instagram.com/saed_al_halteh/"><i class="fab fa-instagram fa-3x"></i></a>
+                </li>
+              </ul>
+
+
+          </div>
+
+
+      <p class="copyright">© Copyright 2021 Sa'ed Al Halteh</p>
+    </div>
+<!--==================== Bootstrap JavaScript Link ====================-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+ <script src="script.js"> </script>
+  </body>
+</html>
